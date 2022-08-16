@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Chat - A Realtime chat application.</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./js/client.js"></script>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="chatImage">
+        <img src="./Chat-PNG-HD.png" alt="we chat icon" />
+      </div>
+      <div class="chatContainer"></div>
+      <div class="send">
+        <form action="#" id="send-container">
+          <input id="messageInp" class="send-inp" type="text" />
+          <button class="send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

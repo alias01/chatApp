@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(red, yellow);
+}
+
+.chatImage{
+    display: block;
+    width: 100px;
+    margin: auto;
+
+}
+.chatImage img{
+   width: 100px;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+.chatContainer{ 
+    border: 2px solid black;
+    border-radius: 9px;
+    padding:2rem;
+    height:70vh;
+    overflow-y: auto;
+}
+
+.chat{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius:9px;
+    padding:0.25rem 0.5rem;
+    margin-bottom: 1rem
+}
+
+.chat-left{
+    float: left;
+    clear: both;
+}
+.chat-right{
+    float: right;
+    clear: both;
+}
+
+
+
+.send-inp{
+    width: 92%;
+    border: 1px solid blue;
+    padding: 0.5rem 0.75rem;
+    border-radius: 9px;
+}
+.send-btn{
+    background-color: blue;
+    padding: 0.5rem 0.75rem;
+    border-radius: 9px;
+    font-weight: bold;
+}
